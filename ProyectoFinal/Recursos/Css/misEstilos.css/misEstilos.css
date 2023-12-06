@@ -1,0 +1,136 @@
+body {
+    background-color: beige;
+}
+.letraBlanca {
+    color: white;
+}
+.tamañoHeader {  
+    width: 100%;
+    height: 100%;
+}
+header {
+    position: sticky;
+    top: 0px;
+}
+header h1 {
+    margin-left: 25px;    
+}
+h1 {
+    font-family: 'Libre Caslon Display', serif;
+}
+.titleNaranja {
+    background-color: #972E01;   
+    display: flex;
+    justify-content: space-between;
+}
+.fondoNaranjaClaro {
+    background-color: #DA4000;
+    padding: 10px;
+    border-radius: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+.redesSociales {    
+    display: flex;    
+    flex-wrap: wrap;
+    align-items: center;        
+    text-align: end;
+    justify-content: space-evenly;
+    border: 10px;
+    margin: 15px;
+}    
+.logoMail {
+    border: 5px black;
+    display: flex;  
+    margin: auto; 
+    justify-content: center;
+}
+.logoM {
+    float: right;
+    margin-left: auto;
+}
+.logoWpp {
+    color: green;
+    border: white;
+    display: flex;
+    margin: auto;
+    justify-content: center;    
+}
+.contenedorAtajos {   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 3px;
+}
+.atajos {
+    color: white;
+    font-size: 20px;
+    margin: 5px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+h2 {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 50px;
+} 
+.logoRelojeria {
+    width: 1300px;
+    height: 600px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.imgMain {
+    margin-top: 100px;
+   
+}
+.pilasReloj {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 5px;
+}
+.arreglos {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 5px;
+}
+.relojTressa {
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    margin: 5px;
+}
+.contenedor {
+    font-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer {
+    background-color: #972E01;  
+}
+.contenedorAtajosFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 15px;
+}
+.contenedorMapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
